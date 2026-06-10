@@ -1,6 +1,5 @@
 # Tugas Mobile Programming - Pertemuan 8: Katalog Produk & Fitur Favorit
 
-Aplikasi Flutter ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Mobile Pertemuan 8. Aplikasi ini mengimplementasikan katalog produk yang dinamis dengan data dari API, lengkap dengan sistem penyaringan kategori, detail produk yang dipercantik, serta fitur favorit menggunakan manajemen state Provider.
 
 ## Fitur Utama
 
@@ -26,9 +25,6 @@ Aplikasi Flutter ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Mobile 
    - Dapat diklik untuk kembali melihat detail produk.
    - Tampilan *empty state* yang informatif jika belum ada produk favorit.
 
-5. **Aesthetics & Transisi**:
-   - Transisi **Hero Animation** yang halus pada gambar produk saat berpindah dari beranda ke halaman detail.
-
 ## Struktur Direktori Utama
 
 - `lib/models/`: Model data produk (`product.dart`).
@@ -43,12 +39,3 @@ Aplikasi Flutter ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Mobile 
 2. Masuk ke direktori project:
    ```bash
    cd "itg_mobile_pertemuan_8\itg_mobile_pertemuan_8"
-   ```
-3. Jalankan perintah untuk mengunduh package dependencies:
-   ```bash
-   flutter pub get
-   ```
-4. Jalankan aplikasi:
-   ```bash
-   flutter run
-   ```
